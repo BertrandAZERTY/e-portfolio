@@ -72,4 +72,8 @@ footer{background:var(--navy);color:#c9d3ea;padding:1.6rem 0;font-size:.9rem}
  section{padding:3.5rem 0}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
- 
+/* sélecteur de langue */
+.lang{background:none;border:1px solid #5b6d96;color:#9fb0d6;padding:.35rem .7rem;border-radius:6px;font:inherit;font-size:.9rem;cursor:pointer;transition:background .2s}
+.lang:hover{background:rgba(255,255,255,.12)}
+.lang span.on{color:var(--white);font-weight:600}
+@media(max-width:760px){.lang{margin-left:auto;margin-right:.6rem}}
